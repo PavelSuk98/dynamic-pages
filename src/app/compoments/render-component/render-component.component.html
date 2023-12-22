@@ -1,0 +1,13 @@
+@for(field of fields; track field.name) {
+    @switch (field.type) {
+        @case(CompomentType.HEADER) {
+            <app-header [field]="field"></app-header>
+        }
+        @case (CompomentType.PARAGRAPH) {
+            <app-paragraph [field]="field"></app-paragraph>
+        }
+        @default {
+            <span>unknow type of component</span>
+        }
+    }
+}

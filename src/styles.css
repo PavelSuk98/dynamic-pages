@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+/* Add application styles & imports to this file! */
+.crumbs {
+    background-color: aliceblue;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .crumbs ul {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  .crumbs ul li {
+    margin-right: 10px;
+  }
+  
